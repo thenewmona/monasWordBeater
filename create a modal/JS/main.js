@@ -2,9 +2,9 @@
 
 var modal = document.getElementById('simpleModal');
 
-// get open modal button 
+// get open modal button don't need this for memory game 
 
-var modalBtn = document.getElementById('modalBtn');
+var modalBtn = document.getElementById('modalBtn');//don't need this for memory game
 
 //get close button 
 
@@ -12,7 +12,7 @@ var closeBtn = document.getElementsByClassName('closeBtn')[0];
 
 //Listen for open click
 
-modalBtn.addEventListener('click', openModal);
+modalBtn.addEventListener('click', openModal);//don't need this for memory game
 
 //Listen for close click
 closeBtn.addEventListener('click', closeModal);
@@ -36,3 +36,4 @@ function outsideClick(e) {
   modal.style.display = 'none';
 }
 }
+//memory game 
