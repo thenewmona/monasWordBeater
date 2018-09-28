@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  height: 100vh;
+  background: #333 url('https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/38227575_10217303738844442_5905091144462630912_n.jpg?_nc_cat=108&oh=73590d80f4445b78ccd4a4d8099cd669&oe=5C54070B')  no-repeat center center / cover;
+  color: rgb(22, 13, 151);
+  overflow:hidden;
+}
